@@ -52,12 +52,12 @@ def send_text(text):
 
 def show_stats():
     print(f"\n{DIM}╔══════════════════════════════════════╗{R}")
-    print(f"{DIM}║{R}  {BOLD}{B}Relatório da Sessão{R}{DIM}                  ║{R}")
+    print(f"{DIM}║{R}  {BOLD}{B}Relatório da Sessão{R}{DIM}                 ║{R}")
     print(f"{DIM}╠══════════════════════════════════════╣{R}")
-    print(f"{DIM}║{R}  Modelo         {M}{MODEL}{R}{DIM}      ║{R}")
-    print(f"{DIM}║{R}  Tokens Entrada  {C}{total_input_tokens}{R}{DIM}                    ║{R}")
-    print(f"{DIM}║{R}  Tokens Saída    {C}{total_output_tokens}{R}{DIM}                    ║{R}")
-    print(f"{DIM}║{R}  Custo Total    {Y}${total_cost:.6f}{R}{DIM}              ║{R}")
+    print(f"{DIM}║{R}  Modelo          {M}{MODEL}{R}{DIM}    ║{R}")
+    print(f"{DIM}║{R}  Tokens Entrada  {C}{total_input_tokens}{R}{DIM}                    {R}")
+    print(f"{DIM}║{R}  Tokens Saída    {C}{total_output_tokens}{R}{DIM}                   {R}")
+    print(f"{DIM}║{R}  Custo Total     {Y}${total_cost:.6f}{R}{DIM}           ║{R}")
     print(f"{DIM}╚══════════════════════════════════════╝{R}\n")
 
 def help_menu():
